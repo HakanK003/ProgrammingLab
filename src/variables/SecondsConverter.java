@@ -10,6 +10,12 @@ public class SecondsConverter {
         int minutesShow = secondsToMin%60;       //55
         int hoursShow = secondsToMin/60;             //8
 
+        /*
+         int hours  = inputSeconds / 3600;
+         int minutes = inputSeconds % 3600 /60;
+         int seconds = inputSeconds % 3600 % 60;
+         */
+
 
         System.out.println(hoursShow + " hours, " + minutesShow + " minutes, and " + secondsShow + " seconds");
 
