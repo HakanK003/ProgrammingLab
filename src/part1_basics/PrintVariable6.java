@@ -1,4 +1,4 @@
-package basics;
+package part1_basics;
 
 public class PrintVariable6 {
 
